@@ -9,7 +9,7 @@ An LED stoplight alarm for my Raspberry Pi. This is a node.js application that c
 
 Here is my circuit diagram that's required for running `ledstoplight`.
 
-<img src="https://raw.githubusercontent.com/curtis628/ledstoplight/examples/ledstoplight_circuit.png">
+<img src="https://raw.githubusercontent.com/curtis628/ledstoplight/master/examples/ledstoplight_circuit.png">
 
 ## Usage
 Thanks to [commander](https://github.com/tj/commander.js), you can see how to use `ledstoplight` from the command-line using the `--help` argument.
