@@ -1,0 +1,38 @@
+{
+  "name": "ledstoplight",
+  "version": "1.0.0",
+  "description": "An LED stoplight alarm for my Raspberry Pi",
+  "main": "ledstoplight.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "minimist": "^1.2.0",
+    "onoff": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./ledstoplight.js --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtis628/ledstoplight.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "rpi",
+    "raspi",
+    "gpio",
+    "onoff",
+    "commander",
+    "alarm"
+  ],
+  "author": "curtis628",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curtis628/ledstoplight/issues"
+  },
+  "homepage": "https://github.com/curtis628/ledstoplight#readme"
+}
