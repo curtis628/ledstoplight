@@ -1,9 +1,15 @@
 # ledstoplight
-An LED stoplight alarm for my Raspberry Pi. This is a node.js application that controls two LEDs wired up on my Raspberry Pi  by turning them on or off at a configured time. See circuit diagram below that shows my GPIO layout, which shows my Red LED is connected `BCM 20` and my Green LED is connected to `BCM 21`.
+An LED stoplight alarm for my Raspberry Pi. This is a node.js application that controls two LEDs wired up on my Raspberry Pi by turning them on or off at a configured time. See circuit diagram below for how I wired everything up.
 
 ## NPM Dependencies
 - [onoff](https://github.com/fivdi/onoff) - Used to control GPIO outputs
 - [commander](https://github.com/tj/commander.js) - Used to faciliate the command-line interface
+
+## Circuit Diagram
+
+Here is my circuit diagram that's required for running `ledstoplight`.
+
+<img src="https://raw.githubusercontent.com/curtis628/ledstoplight/examples/ledstoplight_circuit.png">
 
 ## Usage
 Thanks to [commander](https://github.com/tj/commander.js), you can see how to use `ledstoplight` from the command-line using the `--help` argument.
