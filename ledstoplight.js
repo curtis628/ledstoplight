@@ -35,16 +35,16 @@ function checkAlarm() {
     console.log(now);
 
     if (redLedOn_hours == nowHours && redLedOn_minutes == nowMinutes) {
-        console.log("Red LED is turning ON");
+        console.log("%s - Red LED is turning ON", now);
         redLed.writeSync(ON)
     }
     if (greenLedOn_hours == nowHours && greenLedOn_minutes == nowMinutes) {
-        console.log("Red LED is turning OFF; Green LED is turning ON");
+        console.log("%s - Red LED is turning OFF; Green LED is turning ON", now);
         redLed.writeSync(OFF);
         greenLed.writeSync(ON);
     }
     if (ledsOff_hours == nowHours && ledsOff_minutes == nowMinutes) {
-        console.log("All LEDs turn OFF");
+        console.log("%s - All LEDs turn OFF", now);
         redLed.writeSync(OFF);
         greenLed.writeSync(OFF);
     }
