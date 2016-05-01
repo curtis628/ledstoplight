@@ -32,7 +32,7 @@ function checkAlarm() {
     var now = new Date()
     var nowHours = now.getHours();
     var nowMinutes = now.getMinutes();
-    console.log(now);
+    //console.log("%s - Checking alarm...", now);
 
     if (redLedOn_hours == nowHours && redLedOn_minutes == nowMinutes) {
         console.log("%s - Red LED is turning ON", now);
